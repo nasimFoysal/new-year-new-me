@@ -6,7 +6,6 @@
 /* header styles */
 header {
   background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
-  /* background: ; */
   height: 480px;
   margin: 50px 110px;
   background-size: cover;
@@ -17,11 +16,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
-/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-
-1x */
-
 
 .banner-text-container {
   text-align: center;
@@ -39,3 +33,54 @@ header {
   font-size: 26px;
   font-weight: 400;
 }
+
+
+
+
+/* main starts */
+
+
+/* welcome-party section */
+
+.welcome-party{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    height: 470px;
+    /* width: 1050px; */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 50px 110px;
+    border-radius: 12.8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 120px;
+}
+
+.welcome-party-text-container {
+    /* text-align: center; */
+    color: white;
+    width: 500px;
+  }
+
+.welcome-party-title{
+    font-size: 51.2px;
+}
+
+.welcome-party-description{
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 24px;
+    margin-bottom: 28px;
+
+}
+
+.welcome-party button {
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+
+
