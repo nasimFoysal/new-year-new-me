@@ -100,22 +100,124 @@ header {
 
 .schedule div p {
   font-size: 25.6px;
-  font-style: normal;
   font-weight: 600;
   line-height: 44.8px;
 }
 
-.schedule div span{
-  color:#F00;
+.schedule div span {
+  color: #f00;
 }
 
-
-.schedule div button{
+.schedule div button {
   padding: 12.8px 25.6px;
   color: white;
   border: none;
-  background-color: #F00;
+  background-color: #f00;
   border-radius: 6.4px;
   font-weight: 700;
   margin-top: 30px;
+}
+
+/* coming soon styles */
+
+
+
+/* sale styles */
+.sale {
+  margin: 50px 110px;
+  width: 1056px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sale-text-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sale-text-container h5 {
+  color: #070211;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+
+.sale-text-container h2 {
+  font-size: 57.6px;
+  font-weight: 900;
+  margin-bottom: 22.4px;
+}
+.sale-text-container h2 span {
+  color: #f00;
+}
+
+.sale-text-container p {
+  width: 850px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.6px;
+}
+
+
+/*---------------sale images---------------------*/
+.sale-img-container{
+  width: 1056px;
+  position: relative;
+  height: 530px;
+  /* border: 2px solid blueviolet; */
+}
+
+.sale-rectangle-img-container{
+  background-image: url("../images/Rectangle2.png");
+  height: 530px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 16px 0px 16px 16px;
+
+}
+
+
+.sale-girl-img-container{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+.sale-girl-img{
+  height: 301px;
+}
+
+.sale-box-img-container{
+  position: absolute;
+  top: 20px;
+  left: 80px;
+
+}
+
+.sale-box-img{
+  height: 452px;
+  
+ 
+}
+
+/* .sale-box-img-container{
+  background-image: url("../images/Group75.png");
+  height: 452px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+ 
+
+} */
+
+.sale-circle-img-container{
+  position: absolute;
+  top: 60px;
+  right: 220px;
+}
+
+.sale-circle-img{
+  width: 200px;
 }
