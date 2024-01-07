@@ -5,7 +5,8 @@
 
 /* header styles */
 header {
-  background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/image-of-banner.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/image-of-banner.png");
   height: 480px;
   margin: 50px 110px;
   background-size: cover;
@@ -34,53 +35,87 @@ header {
   font-weight: 400;
 }
 
-
-
-
 /* main starts */
-
 
 /* welcome-party section */
 
-.welcome-party{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
-    height: 470px;
-    /* width: 1050px; */
-    
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.welcome-party {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  height: 470px;
+  /* width: 1050px; */
 
-    margin: 50px 110px;
-    border-radius: 12.8px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: 50px 110px;
+  border-radius: 12.8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 120px;
 }
 
 .welcome-party-text-container {
-    /* text-align: center; */
-    color: white;
-    width: 500px;
-  }
-
-.welcome-party-title{
-    font-size: 51.2px;
+  /* text-align: center; */
+  color: white;
+  width: 500px;
 }
 
-.welcome-party-description{
-    color: rgba(255, 255, 255, 0.80);
-    line-height: 24px;
-    margin-bottom: 28px;
+.welcome-party-title {
+  font-size: 51.2px;
+}
 
+.welcome-party-description {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 24px;
+  margin-bottom: 28px;
 }
 
 .welcome-party button {
-    color: white;
-    border: none;
-    background-color: black;
+  color: white;
+  border: none;
+  background-color: black;
+}
+
+/* schedule styles */
+
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 110px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 440px;
+}
+
+.schedule div {
+  text-align: center;
+}
+
+.schedule div p {
+  font-size: 25.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44.8px;
+}
+
+.schedule div span{
+  color:#F00;
 }
 
 
-
+.schedule div button{
+  padding: 12.8px 25.6px;
+  color: white;
+  border: none;
+  background-color: #F00;
+  border-radius: 6.4px;
+  font-weight: 700;
+  margin-top: 30px;
+}
