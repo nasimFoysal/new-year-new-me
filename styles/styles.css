@@ -1,3 +1,41 @@
-h1{
-    background-color: aquamarine;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header styles */
+header {
+  background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+  /* background: ; */
+  height: 480px;
+  margin: 50px 110px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+1x */
+
+
+.banner-text-container {
+  text-align: center;
+  color: white;
+  width: 500px;
+}
+
+.banner-text-container h2 {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.banner-text-container h5 {
+  font-size: 26px;
+  font-weight: 400;
 }
