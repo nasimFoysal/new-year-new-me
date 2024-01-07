@@ -120,8 +120,6 @@ header {
 
 /* coming soon styles */
 
-
-
 /* sale styles */
 .sale {
   margin: 50px 110px;
@@ -160,46 +158,39 @@ header {
   line-height: 25.6px;
 }
 
-
 /*---------------sale images---------------------*/
-.sale-img-container{
+.sale-img-container {
   width: 1056px;
   position: relative;
   height: 530px;
   /* border: 2px solid blueviolet; */
 }
 
-.sale-rectangle-img-container{
+.sale-rectangle-img-container {
   background-image: url("../images/Rectangle2.png");
   height: 530px;
   background-repeat: no-repeat;
   background-position: bottom;
   border-radius: 16px 0px 16px 16px;
-
 }
 
-
-.sale-girl-img-container{
+.sale-girl-img-container {
   position: absolute;
   top: 0px;
   right: 0px;
-
 }
-.sale-girl-img{
+.sale-girl-img {
   height: 301px;
 }
 
-.sale-box-img-container{
+.sale-box-img-container {
   position: absolute;
   top: 20px;
   left: 80px;
-
 }
 
-.sale-box-img{
+.sale-box-img {
   height: 452px;
-  
- 
 }
 
 /* .sale-box-img-container{
@@ -212,12 +203,51 @@ header {
 
 } */
 
-.sale-circle-img-container{
+.sale-circle-img-container {
   position: absolute;
   top: 60px;
   right: 220px;
 }
 
-.sale-circle-img{
+.sale-circle-img {
   width: 200px;
+}
+
+/* -----------------------portfolio styles--------------------- */
+
+.portfolio {
+  margin: 30px 110px 96px 110px;
+}
+
+.portfolio-text{
+  width: 700px;
+}
+
+.portfolio-text h4 {
+  color: #f00;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+
+.portfolio-text h3 {
+  color: #070211;
+  font-size: 38.4px;
+  font-weight: 900;
+}
+
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.portfolio-images-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19.2px;
+}
+
+.portfolio-images-container img {
+  width: 339.2px;
 }
