@@ -3,7 +3,7 @@
   padding: 0px;
 }
 
-/* header styles */
+/*-------------- header styles ------------------*/
 header {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/image-of-banner.png");
@@ -35,9 +35,46 @@ header {
   font-weight: 400;
 }
 
-/* main starts */
+/* ==================main starts ===================*/
+/*---------------- discount styles------------------ */
+.discount{
+  text-align: center;
+}
 
-/* welcome-party section */
+.discount-text h3 {
+  color: #f00;
+  text-align: center;
+  font-size: 70.4px;
+  font-weight: 700;
+  margin-bottom: 38.4px;
+}
+
+.discount-text h4 {
+  color: #f00;
+  text-align: center;
+  font-size: 19.2px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.discount-text h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 38.4px;
+  font-weight: 700;
+}
+
+.discount-img img{
+  width: 650px;
+  margin-top: 38.4px;
+}
+
+
+
+
+
+/*--------------welcome-party section--------------- */
 
 .welcome-party {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -79,7 +116,7 @@ header {
   background-color: black;
 }
 
-/* schedule styles */
+/* -------------------schedule styles--------------- */
 
 .schedule {
   display: flex;
@@ -120,7 +157,12 @@ header {
 
 /* coming soon styles */
 
-/* sale styles */
+
+
+
+
+
+/* -------------------sale styles -----------------*/
 .sale {
   margin: 50px 110px;
   width: 1056px;
@@ -157,6 +199,9 @@ header {
   font-weight: 500;
   line-height: 25.6px;
 }
+
+
+
 
 /*---------------sale images---------------------*/
 .sale-img-container {
@@ -270,7 +315,7 @@ header {
   width: 120px;
 }
 
-.sub-text{
+.sub-text {
   margin-bottom: 38px;
   margin-top: 32px;
 }
