@@ -2,18 +2,19 @@
   margin: 0px;
   padding: 0px;
   max-width: 1320px;
-  font-family: 'Inter', sans-serif;
+ 
 }
 
-p{
+body{
+  font-family: "Inter", sans-serif;
+}
+
+p {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 16px;
-  font-weight: 400;
+  /* font-size: 16px;
+  font-weight: 400; */
   line-height: 25.6px;
 }
-
-
-
 
 /*-------------- header styles ------------------*/
 header {
@@ -40,21 +41,20 @@ header {
   font-size: 58px;
   font-weight: 900;
   line-height: 76px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .banner-text-container h5 {
   font-size: 26px;
   font-weight: 400;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 /* ==================main starts ===================*/
 /*---------------- discount styles------------------ */
-.discount{
+.discount {
   text-align: center;
 }
-
 
 .discount-text h3 {
   color: #f00;
@@ -80,14 +80,10 @@ header {
   font-weight: 700;
 }
 
-.discount-img img{
+.discount-img img {
   width: 650px;
   margin-top: 38.4px;
 }
-
-
-
-
 
 /*--------------welcome-party section--------------- */
 
@@ -115,16 +111,13 @@ header {
 
 .welcome-party-title {
   font-size: 51.2px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .welcome-party-description {
   color: rgba(255, 255, 255, 0.8);
   line-height: 24px;
   margin-bottom: 28px;
-
-
-  
 }
 
 .welcome-party button {
@@ -147,7 +140,6 @@ header {
   );
   height: 440px;
   border-radius: 10px;
-  
 }
 
 .schedule div {
@@ -175,73 +167,61 @@ header {
 }
 
 /*----------------coming soon styles----------------*/
-.coming-soon{
+.coming-soon {
   margin: 100px 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.coming-soon-left-side{
+.coming-soon-left-side {
   width: 310px;
 }
-.coming-soon-right-side{
+.coming-soon-right-side {
   width: 220px;
-
-
 }
 
 .coming-soon-left-side h3 {
-  color: #F00;
+  color: #f00;
   font-size: 19.2px;
   font-weight: 500;
 }
 
-.coming-soon-left-side h2{
+.coming-soon-left-side h2 {
   color: #070211;
   font-size: 38.4px;
   font-weight: 900;
   margin-bottom: 17.6px;
   margin-top: 14px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
-
-.ellipse-img-container{
-  border: 12px solid #F00;
+.ellipse-img-container {
+  border: 12px solid #f00;
   border-radius: 50%;
 }
 
-.ellipse-img-container div{
+.ellipse-img-container div {
   border: 39.2px solid white;
   border-radius: 50%;
-
 }
-.ellipse-img-container img{
+.ellipse-img-container img {
   width: 290px;
-
 }
 
-.coming-soon-right-side h2{
-  color: #F00;
+.coming-soon-right-side h2 {
+  color: #f00;
   font-size: 38.4px;
   font-weight: 700;
-
-
 }
 
 .coming-soon-right-side img {
   width: 110px;
 }
 
-.coming-soon-second-img{
+.coming-soon-second-img {
   margin-top: 34.4px;
 }
-
-
-
-
 
 /* -------------------sale styles -----------------*/
 .sale {
@@ -268,23 +248,17 @@ header {
   font-size: 57.6px;
   font-weight: 900;
   margin-bottom: 22.4px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 .sale-text-container h2 span {
   color: #f00;
 }
 
 .sale-text-container p {
-  width: 850px;
-  
+  width: 750px;
+
   font-weight: 500;
- 
-
- 
 }
-
-
-
 
 /*---------------sale images---------------------*/
 .sale-img-container {
@@ -341,8 +315,6 @@ header {
   width: 200px;
 }
 
-
-
 /* --------------------portfolio styles--------------- */
 
 .portfolio {
@@ -364,11 +336,10 @@ header {
   color: #070211;
   font-size: 38.4px;
   font-weight: 900;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   margin-bottom: 17.6px;
   margin-top: 12.8px;
 }
-
 
 .portfolio-images-container {
   display: grid;
@@ -404,7 +375,7 @@ header {
 }
 
 .sub-text h3 {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 900;
   font-size: 38.4px;
 }
@@ -442,14 +413,8 @@ header {
   font-size: 14px;
 }
 
-
-
-
-
-
-
 /* =========   footer  ============ */
-footer{
+footer {
   margin: 100px 0px 0px 0px;
   padding-left: 110px;
   padding-right: 110px;
@@ -459,57 +424,57 @@ footer{
   height: 485px;
 }
 
-.footer-up, .footer-bottom{
+.footer-up,
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
   margin-top: 50px;
 }
-.footer-address , .phone {
+.footer-address,
+.phone {
   margin-bottom: 12px;
 }
 
-.phone, .web{
+.phone,
+.web {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.phone img, .web img {
+.phone img,
+.web img {
   width: 16px;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-footer h5, footer a {
+footer h5,
+footer a {
   font-size: 19.2px;
   font-weight: 500;
 }
 
-.socials{
+.socials {
   margin-top: 38.4px;
   margin-bottom: 38.4px;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
-
-.social-imgs{
+.social-imgs {
   width: 262px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.socials img{
+.socials img {
   width: 51.2px;
-  
-  
 }
 
 footer a {
@@ -517,12 +482,9 @@ footer a {
   color: #fff;
 }
 
-
 footer hr {
   height: 1px;
   border: none;
   margin: 0px;
   background-color: rgba(255, 255, 255, 0.15);
 }
-
-
