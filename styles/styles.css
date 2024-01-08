@@ -100,13 +100,17 @@ header {
   border-radius: 12.8px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-left: 120px;
+  justify-content: space-around;
+  padding-left: 80px;
+
+  /* position: relative; */
 }
 
 .welcome-party-text-container {
   color: white;
-  width: 500px;
+  width: 550px;
+
+  
 }
 
 .welcome-party-title {
@@ -124,6 +128,20 @@ header {
   color: white;
   border: none;
   background-color: black;
+  margin-left: 20px;
+}
+
+.welcome-party-img-container{
+  /* position: absolute;
+  right: 110px; */
+  padding-right: 50px;
+
+}
+
+.welcome-party-img-container img{
+  width: 255px;
+  /* mix-blend-mode: screen; */
+  
 }
 
 /* -------------------schedule styles--------------- */
