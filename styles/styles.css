@@ -155,8 +155,87 @@ header {
   margin-top: 30px;
 }
 
-/* coming soon styles */
+/*----------------coming soon styles----------------*/
+.coming-soon{
+  margin: 30px 110px 96px 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 
+.coming-soon-left-side{
+  width: 310px;
+}
+.coming-soon-right-side{
+  width: 220px;
+
+
+}
+
+.coming-soon-left-side h3 {
+  color: #F00;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+
+.coming-soon-left-side h2{
+  color: #070211;
+  font-size: 38.4px;
+  font-weight: 900;
+  margin-bottom: 17.6px;
+  margin-top: 14px;
+}
+
+.coming-soon-left-side p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+
+}
+
+.ellipse-img-container{
+  border: 12px solid #F00;
+  border-radius: 50%;
+}
+
+.ellipse-img-container div{
+  border: 39.2px solid white;
+  border-radius: 50%;
+
+}
+.ellipse-img-container img{
+  width: 290px;
+
+}
+
+.coming-soon-right-side h2{
+  color: #F00;
+  font-family: Inter;
+  font-size: 38.4px;
+  font-weight: 700;
+
+
+}
+
+.coming-soon-right-side p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+
+}
+
+.coming-soon-right-side img {
+  width: 110px;
+}
+
+.coming-soon-second-img{
+  margin-top: 34.4px;
+}
 
 
 
