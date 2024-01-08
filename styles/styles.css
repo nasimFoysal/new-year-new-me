@@ -1,7 +1,19 @@
 * {
   margin: 0px;
   padding: 0px;
+  max-width: 1320px;
+  font-family: 'Inter', sans-serif;
 }
+
+p{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+
+
 
 /*-------------- header styles ------------------*/
 header {
@@ -28,11 +40,13 @@ header {
   font-size: 58px;
   font-weight: 900;
   line-height: 76px;
+  font-family: 'Merriweather', serif;
 }
 
 .banner-text-container h5 {
   font-size: 26px;
   font-weight: 400;
+  font-family: 'Merriweather', serif;
 }
 
 /* ==================main starts ===================*/
@@ -41,12 +55,14 @@ header {
   text-align: center;
 }
 
+
 .discount-text h3 {
   color: #f00;
   text-align: center;
   font-size: 70.4px;
   font-weight: 700;
   margin-bottom: 38.4px;
+  margin-top: 100px;
 }
 
 .discount-text h4 {
@@ -60,7 +76,6 @@ header {
 .discount-text h2 {
   color: #070211;
   text-align: center;
-  font-family: Inter;
   font-size: 38.4px;
   font-weight: 700;
 }
@@ -85,7 +100,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 
-  margin: 50px 110px;
+  margin: 100px 110px;
   border-radius: 12.8px;
   display: flex;
   align-items: center;
@@ -100,12 +115,16 @@ header {
 
 .welcome-party-title {
   font-size: 51.2px;
+  font-family: 'Merriweather', serif;
 }
 
 .welcome-party-description {
   color: rgba(255, 255, 255, 0.8);
   line-height: 24px;
   margin-bottom: 28px;
+
+
+  
 }
 
 .welcome-party button {
@@ -120,20 +139,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 110px;
+  margin: 100px 110px;
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
   height: 440px;
+  border-radius: 10px;
+  
 }
 
 .schedule div {
   text-align: center;
 }
 
-.schedule div p {
+.schedule div h5 {
   font-size: 25.6px;
   font-weight: 600;
   line-height: 44.8px;
@@ -155,7 +176,7 @@ header {
 
 /*----------------coming soon styles----------------*/
 .coming-soon{
-  margin: 30px 110px 96px 110px;
+  margin: 100px 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -183,16 +204,9 @@ header {
   font-weight: 900;
   margin-bottom: 17.6px;
   margin-top: 14px;
+  font-family: 'Merriweather', serif;
 }
 
-.coming-soon-left-side p{
-  color: rgba(7, 2, 17, 0.60);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25.6px;
-
-}
 
 .ellipse-img-container{
   border: 12px solid #F00;
@@ -211,19 +225,9 @@ header {
 
 .coming-soon-right-side h2{
   color: #F00;
-  font-family: Inter;
   font-size: 38.4px;
   font-weight: 700;
 
-
-}
-
-.coming-soon-right-side p{
-  color: rgba(7, 2, 17, 0.60);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25.6px;
 
 }
 
@@ -241,7 +245,7 @@ header {
 
 /* -------------------sale styles -----------------*/
 .sale {
-  margin: 50px 110px;
+  margin: 100px 110px;
   width: 1056px;
   display: flex;
   flex-direction: column;
@@ -264,6 +268,7 @@ header {
   font-size: 57.6px;
   font-weight: 900;
   margin-bottom: 22.4px;
+  font-family: 'Merriweather', serif;
 }
 .sale-text-container h2 span {
   color: #f00;
@@ -271,10 +276,11 @@ header {
 
 .sale-text-container p {
   width: 850px;
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 16px;
+  
   font-weight: 500;
-  line-height: 25.6px;
+ 
+
+ 
 }
 
 
@@ -335,14 +341,17 @@ header {
   width: 200px;
 }
 
+
+
 /* --------------------portfolio styles--------------- */
 
 .portfolio {
-  margin: 30px 110px 96px 110px;
+  margin: 100px 110px;
 }
 
 .portfolio-text {
   width: 700px;
+  margin-bottom: 38.4px;
 }
 
 .portfolio-text h4 {
@@ -355,14 +364,11 @@ header {
   color: #070211;
   font-size: 38.4px;
   font-weight: 900;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 17.6px;
+  margin-top: 12.8px;
 }
 
-.portfolio-text p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25.6px;
-}
 
 .portfolio-images-container {
   display: grid;
@@ -382,7 +388,7 @@ header {
   height: 492px;
   border-radius: 12.8px;
   background: rgba(255, 0, 0, 0.05);
-  margin: 30px 110px 96px 110px;
+  margin: 100px 110px;
 }
 
 .sub {
@@ -395,6 +401,12 @@ header {
 .sub-text {
   margin-bottom: 38px;
   margin-top: 32px;
+}
+
+.sub-text h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 38.4px;
 }
 
 .sub-text p {
@@ -438,10 +450,10 @@ header {
 
 /* =========   footer  ============ */
 footer{
-  margin: 30px 0px 96px 0px;
+  margin: 100px 0px 0px 0px;
   padding-left: 110px;
   padding-right: 110px;
-  padding-top: 96px;
+  padding-top: 86px;
   background-color: #070211;
   color: #fff;
   height: 485px;
@@ -471,7 +483,6 @@ footer{
 }
 
 footer h5, footer a {
-  font-family: Inter;
   font-size: 19.2px;
   font-weight: 500;
 }
