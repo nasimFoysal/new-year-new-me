@@ -371,7 +371,7 @@ header {
   
 }
 #portfolio-img-container2:hover {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle4.png");
+  background: linear-gradient(90deg, hsl(84, 95%, 70%,0.6) 0%, hsl(73, 42%, 70%, 0.3) 100%), url("../images/Rectangle4.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px;
@@ -382,7 +382,7 @@ header {
   
 }
 #portfolio-img-container3:hover {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle5.png");
+  background: linear-gradient(90deg, rgba(128, 32, 0, 1) 1%, rgba(233, 30, 99, 0.1) 55%, rgba(238, 130, 238, 0.4) 100%), url("../images/Rectangle5.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px;
@@ -393,7 +393,7 @@ header {
   
 }
 #portfolio-img-container4:hover {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle6.png");
+  background: linear-gradient(90deg, hsl(339, 71%, 26%, 0.6) 0%, hsl(237, 54%, 69%, 0.4) 100%), url("../images/Rectangle6.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px;
