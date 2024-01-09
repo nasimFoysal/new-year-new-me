@@ -11,8 +11,6 @@ body{
 
 p {
   color: rgba(7, 2, 17, 0.6);
-  /* font-size: 16px;
-  font-weight: 400; */
   line-height: 25.6px;
 }
 
@@ -103,7 +101,6 @@ header {
   justify-content: space-around;
   padding-left: 80px;
 
-  /* position: relative; */
 }
 
 .welcome-party-text-container {
@@ -132,15 +129,12 @@ header {
 }
 
 .welcome-party-img-container{
-  /* position: absolute;
-  right: 110px; */
   padding-right: 50px;
 
 }
 
 .welcome-party-img-container img{
   width: 255px;
-  /* mix-blend-mode: screen; */
   
 }
 
@@ -197,6 +191,7 @@ header {
 }
 .coming-soon-right-side {
   width: 220px;
+  margin-left: -30px;
 }
 
 .coming-soon-left-side h3 {
@@ -217,6 +212,7 @@ header {
 .ellipse-img-container {
   border: 12px solid #f00;
   border-radius: 50%;
+  margin-right: 100px;
 }
 
 .ellipse-img-container div {
@@ -274,32 +270,33 @@ header {
 
 .sale-text-container p {
   width: 750px;
-
   font-weight: 500;
 }
 
 /*---------------sale images---------------------*/
 .sale-img-container {
   width: 1056px;
-  position: relative;
   height: 530px;
-  /* border: 2px solid blueviolet; */
+  position: relative;
+ 
 }
 
 .sale-rectangle-img-container {
-  background-image: url("../images/Rectangle2.png");
   height: 530px;
-  background-repeat: no-repeat;
-  background-position: bottom;
   border-radius: 16px 0px 16px 16px;
+}
+.sale-rectangle-img-container img {
+  width: 1056px;
+  height: 185px;
+  padding-top: 310px;
 }
 
 .sale-girl-img-container {
   position: absolute;
-  top: 0px;
+  top: 9px;
   right: 0px;
 }
-.sale-girl-img {
+.sale-girl-img-container img {
   height: 301px;
 }
 
@@ -307,29 +304,21 @@ header {
   position: absolute;
   top: 20px;
   left: 80px;
+
 }
 
-.sale-box-img {
+.sale-box-img-container img {
   height: 452px;
 }
 
-/* .sale-box-img-container{
-  background-image: url("../images/Group75.png");
-  height: 452px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-
- 
-
-} */
 
 .sale-circle-img-container {
   position: absolute;
   top: 60px;
-  right: 220px;
+  right: 200px;
 }
 
-.sale-circle-img {
+.sale-circle-img-container img {
   width: 200px;
 }
 
@@ -419,7 +408,7 @@ header {
 .sub-container input {
   width: 168px;
   height: 57.6px;
-  margin-right: 0px;
+  margin-right: -5px;
   border: 0px;
 
   border-radius: 40px 0 0 40px;
