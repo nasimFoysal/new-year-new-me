@@ -358,6 +358,77 @@ header {
   width: 339.2px;
 }
 
+
+#portfolio-img-container1:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+
+  #hbag-img{
+    display: none;
+  };
+  
+}
+#portfolio-img-container2:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+
+  #img-two{
+    display: none;
+  };
+  
+}
+#portfolio-img-container3:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+
+  #img-three{
+    display: none;
+  };
+  
+}
+#portfolio-img-container4:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+
+  #img-four{
+    display: none;
+  };
+  
+}
+#portfolio-img-container5:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+
+  #img-five{
+    display: none;
+  };
+  
+}
+#portfolio-img-container6:hover {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../images/Rectangle8.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+  border-radius: 10px;
+
+  #img-six{
+    display: none;
+  };
+  
+}
+
+
+
 /* --------------------subscribe styles-------------- */
 .sub-container {
   display: flex;
